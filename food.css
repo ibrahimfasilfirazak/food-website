@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding-top: 50px;
+}
+
+img:hover {
+    filter: drop-shadow(10px 10px 10px rgb(128, 128, 128, 0.794));
+}
+
+.landing-page {
+    width: 100%;
+    height: 90vh;
+    background-image: url(fresh-vegetables.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.main-heding {
+    color: white;
+    padding: 15% 0 0 50%;
+}
+
+.main-heding h1 {
+    font-family: cursive;
+    font-size: 3.9em;
+}
+
+.main-heding p {
+    font-family: monospace;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+.about {
+    background-color: black;
+    color: white;
+}
+
+.about-container {
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 98%;
+    height: 60vh;
+}
+
+.about h1 {
+    color: white;
+    margin-left: 25px;
+    border-left: 15px solid red;
+    padding: 5px;
+}
+
+.about-contaner img {
+    width: 100px;
+}
+
+.about-contaner p {
+    color: white;
+    font-size: 2.1em;
+    text-align: justify;
+}
+
+.service {
+    background-color: black;
+    color: white;
+}
+
+.service h1 {
+    margin-left: 25px;
+    border-left: 15px solid red;
+    padding: 5px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards {
+    width: 350px;
+    padding: 10px;
+    border: 10px solid black;
+    margin: 10px;
+}
+
+cards h4 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+}
+
+.contact-details {
+    margin: 50px;
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
